@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Ember Twiddle Solarized
 @namespace   Sukima
-@version     1.1.0
+@version     1.1.1
 @homepageURL https://github.com/sukima/ember-twiddle-solarized
 @updateURL   https://raw.githubusercontent.com/sukima/ember-twiddle-solarized/master/ember-twiddle-solarized.user.css
 @license     CC-BY-SA-4.0
@@ -52,205 +52,205 @@
 
 @-moz-document domain("ember-twiddle.com") {
 
-  html * {
+  #main-app * {
     color-profile: sRGB;
     rendering-intent: auto;
   }
 
   /*[[solarized-theme]]*/
 
-  body {
+  #main-app {
     color: var(--color-base0);
   }
-  .img-thumbnail, body {
+  #main-app .img-thumbnail, #main-app {
     background-color: var(--color-base03);
   }
-  .table-striped > tbody > tr:nth-of-type(2n+1) {
+  #main-app .table-striped > tbody > tr:nth-of-type(2n+1) {
     background-color: var(--color-base02);
   }
-  .saved-twiddles tbody tr:hover {
+  #main-app .saved-twiddles tbody tr:hover {
     color: var(--color-base3);
     background-color: var(--color-cyan);
   }
-  .saved-twiddles a {
+  #main-app .saved-twiddles a {
     color: var(--color-orange);
   }
-  .navbar-default,
-  .navbar-default .toolbar {
+  #main-app .navbar-default,
+  #main-app .navbar-default .toolbar {
     color: var(--color-base03);
     background-color: var(--color-orange);
   }
-  input[type="checkbox"],
-  input[type="radio"] {
+  #main-app input[type="checkbox"],
+  #main-app input[type="radio"] {
     background-color: var(--color-base03);
     color: var(--color-base0);
   }
-  .navbar-default .dropdown-menu,
-  .twiddle-pane .header .dropdown-menu,
-  .twiddle-pane.file-tree {
+  #main-app .navbar-default .dropdown-menu,
+  #main-app .twiddle-pane .header .dropdown-menu,
+  #main-app .twiddle-pane.file-tree {
     background-color: var(--color-base02);
   }
-  .cm-s-default {
+  #main-app .cm-s-default {
     background-color: var(--color-base03);
   }
-  .navbar-default .dropdown-menu,
-  .navbar-default .dropdown-menu li,
-  .twiddle-pane .header .dropdown-menu,
-  .twiddle-pane .header .dropdown-menu li {
+  #main-app .navbar-default .dropdown-menu,
+  #main-app .navbar-default .dropdown-menu li,
+  #main-app .twiddle-pane .header .dropdown-menu,
+  #main-app .twiddle-pane .header .dropdown-menu li {
     background-color: var(--color-dropdown-bg);
   }
-  .navbar-default .dropdown-menu,
-  .navbar-default .dropdown-menu li,
-  .twiddle-pane .header .dropdown-menu li,
-  .twiddle-pane .header .dropdown-menu,
-  .twiddle-pane.file-tree,
-  .cm-s-default {
+  #main-app .navbar-default .dropdown-menu,
+  #main-app .navbar-default .dropdown-menu li,
+  #main-app .twiddle-pane .header .dropdown-menu li,
+  #main-app .twiddle-pane .header .dropdown-menu,
+  #main-app .twiddle-pane.file-tree,
+  #main-app .cm-s-default {
     color: var(--color-base0);
   }
-  .navbar-default .dropdown-menu li.divider {
+  #main-app .navbar-default .dropdown-menu li.divider {
     background-color: var(--color-base0);
   }
-  .twiddle-pane {
+  #main-app .twiddle-pane {
     border-right: 1px solid var(--color-base0) !important;
   }
-  .twiddle-pane .header {
+  #main-app .twiddle-pane .header {
     border-bottom: 1px solid var(--color-base03) !important;
   }
-  .nav > li > a,
-  .nav > li > a:focus,
-  .nav > li > a:hover,
-  .twiddle-pane .header {
+  #main-app .nav > li > a,
+  #main-app .nav > li > a:focus,
+  #main-app .nav > li > a:hover,
+  #main-app .twiddle-pane .header {
     background-color: transparent;
   }
-  .twiddle-pane .header {
+  #main-app .twiddle-pane .header {
     color: var(--color-base0);
   }
-  .twiddle-pane .header {
+  #main-app .twiddle-pane .header {
     background-color: var(--color-base03);
   }
-  .twiddle-panes .header .twiddlicon:hover,
-  .twiddle-panes .header .twiddlicon,
-  .twiddle-panes .header .glyphicon:hover,
-  .twiddle-panes .header .glyphicon {
+  #main-app .twiddle-panes .header .twiddlicon:hover,
+  #main-app .twiddle-panes .header .twiddlicon,
+  #main-app .twiddle-panes .header .glyphicon:hover,
+  #main-app .twiddle-panes .header .glyphicon {
     color: var(--color-base0);
     text-shadow: none;
   }
-  .light-gray {
+  #main-app .light-gray {
     color: var(--color-base1);
   }
-  .jstree-default .jstree-hovered .light-gray,
-  .jstree-default .jstree-clicked .light-gray {
+  #main-app .jstree-default .jstree-hovered .light-gray,
+  #main-app .jstree-default .jstree-clicked .light-gray {
     color: var(--color-base03);
   }
-  .nav .open > a,
-  .nav .open > a:focus,
-  .nav .open > a:hover,
-  .jstree-default .jstree-clicked {
+  #main-app .nav .open > a,
+  #main-app .nav .open > a:focus,
+  #main-app .nav .open > a:hover,
+  #main-app .jstree-default .jstree-clicked {
     background-color: var(--color-violet);
   }
-  .nav > li > a {
+  #main-app .nav > li > a {
     color: var(--color-base0);
   }
-  .nav > li > a:focus,
-  .nav > li > a:hover {
+  #main-app .nav > li > a:focus,
+  #main-app .nav > li > a:hover {
     color: var(--color-base03);
   }
-  .navbar-default .nav > li > a,
-  .navbar-default .nav > li > a:focus,
-  .navbar-default .nav > li > a:hover {
+  #main-app .navbar-default .nav > li > a,
+  #main-app .navbar-default .nav > li > a:focus,
+  #main-app .navbar-default .nav > li > a:hover {
     color: var(--color-base3);
   }
-  .jstree-default .jstree-clicked {
+  #main-app .jstree-default .jstree-clicked {
     color: var(--color-base03);
   }
-  .nav > li > a:hover,
-  .dropdown-menu > li > a:focus,
-  .dropdown-menu > li > a:hover,
-  .jstree-default .jstree-hovered {
+  #main-app .nav > li > a:hover,
+  #main-app .dropdown-menu > li > a:focus,
+  #main-app .dropdown-menu > li > a:hover,
+  #main-app .jstree-default .jstree-hovered {
     background-color: var(--color-cyan);
     color: var(--color-base03);
   }
-  .CodeMirror-gutters {
+  #main-app .CodeMirror-gutters {
     border-right: 1px solid var(--color-base03) !important;
   }
-  .cm-s-default .emphasis {
+  #main-app .cm-s-default .emphasis {
     font-weight: bold;
   }
-  .cm-s-default .dotted {
+  #main-app .cm-s-default .dotted {
     border-bottom: 1px dotted var(--color-orange);
   }
-  .cm-s-default .CodeMirror-gutter {
+  #main-app .cm-s-default .CodeMirror-gutter {
     background-color: var(--color-base02);
     border-right: 3px solid var(--color-base02);
   }
-  .cm-s-default .CodeMirror-gutter .CodeMirror-gutter-text {
+  #main-app .cm-s-default .CodeMirror-gutter .CodeMirror-gutter-text {
     color: var(--color-base01);
   }
-  .cm-s-default .CodeMirror-cursor {
+  #main-app .cm-s-default .CodeMirror-cursor {
     border-left-color: var(--color-base3) !important;
   }
-  .cm-s-default .CodeMirror-matchingbracket {
+  #main-app .cm-s-default .CodeMirror-matchingbracket {
     color: var(--color-base3);
     background-color: var(--color-base02);
     box-shadow: 0 0 10px var(--color-base02);
     font-weight: bold;
   }
-  .cm-s-default .CodeMirror-nonmatchingbracket {
+  #main-app .cm-s-default .CodeMirror-nonmatchingbracket {
     background-color: var(--color-base02);
     box-shadow: 0 0 10px var(--color-base02);
     font-weight: bold;
     color: var(--color-red);
     border-bottom: 1px dotted var(--color-orange);
   }
-  .cm-s-default span.cm-keyword {
+  #main-app .cm-s-default span.cm-keyword {
     color: var(--color-base0);
     font-weight: bold;
   }
-  .cm-s-default span.cm-atom {
+  #main-app .cm-s-default span.cm-atom {
     color: var(--color-cyan);
   }
-  .cm-s-default span.cm-number {
+  #main-app .cm-s-default span.cm-number {
     color: var(--color-base1);
   }
-  .cm-s-default span.cm-def {
+  #main-app .cm-s-default span.cm-def {
     color: var(--color-blue);
   }
-  .cm-s-default span.cm-variable {
+  #main-app .cm-s-default span.cm-variable {
     color: var(--color-orange);
   }
-  .cm-s-default span.cm-variable-2 {
+  #main-app .cm-s-default span.cm-variable-2 {
     color: var(--color-orange);
   }
-  .cm-s-default span.cm-variable-3 {
+  #main-app .cm-s-default span.cm-variable-3 {
     color: var(--color-orange);
   }
-  .cm-s-default span.cm-comment {
+  #main-app .cm-s-default span.cm-comment {
     color: var(--color-base01);
   }
-  .cm-s-default span.cm-property {
+  #main-app .cm-s-default span.cm-property {
     color: var(--color-yellow);
   }
-  .cm-s-default span.cm-operator {
+  #main-app .cm-s-default span.cm-operator {
     color: var(--color-base0);
   }
-  .cm-s-default span.cm-string {
+  #main-app .cm-s-default span.cm-string {
     color: var(--color-violet);
   }
-  .cm-s-default span.cm-error {
+  #main-app .cm-s-default span.cm-error {
     font-weight: bold;
     border-bottom: 1px dotted var(--color-orange);
   }
-  .cm-s-default span.cm-bracket {
+  #main-app .cm-s-default span.cm-bracket {
     color: var(--color-orange);
   }
-  .cm-s-default span.cm-tag {
+  #main-app .cm-s-default span.cm-tag {
     color: var(--color-base0);
   }
-  .cm-s-default span.cm-attribute {
+  #main-app .cm-s-default span.cm-attribute {
     color: var(--color-base1);
     font-weight: bold;
   }
-  .cm-s-default span.cm-meta {
+  #main-app .cm-s-default span.cm-meta {
     color: var(--color-blue);
   }
 }
