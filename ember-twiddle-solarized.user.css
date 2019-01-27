@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Ember Twiddle Solarized
 @namespace   Sukima
-@version     1.0.0
+@version     1.1.0
 @homepageURL https://github.com/sukima/ember-twiddle-solarized
 @updateURL   https://raw.githubusercontent.com/sukima/ember-twiddle-solarized/master/ember-twiddle-solarized.user.css
 @license     CC-BY-SA-4.0
@@ -59,6 +59,22 @@
 
   /*[[solarized-theme]]*/
 
+  body {
+    color: var(--color-base0);
+  }
+  .img-thumbnail, body {
+    background-color: var(--color-base03);
+  }
+  .table-striped > tbody > tr:nth-of-type(2n+1) {
+    background-color: var(--color-base02);
+  }
+  .saved-twiddles tbody tr:hover {
+    color: var(--color-base3);
+    background-color: var(--color-cyan);
+  }
+  .saved-twiddles a {
+    color: var(--color-orange);
+  }
   .navbar-default,
   .navbar-default .toolbar {
     color: var(--color-base03);
