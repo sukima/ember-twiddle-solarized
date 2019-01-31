@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Ember Twiddle Solarized
 @namespace   Sukima
-@version     1.1.2
+@version     1.1.3
 @homepageURL https://github.com/sukima/ember-twiddle-solarized
 @updateURL   https://raw.githubusercontent.com/sukima/ember-twiddle-solarized/master/ember-twiddle-solarized.user.css
 @license     CC-BY-SA-4.0
@@ -76,6 +76,14 @@
   }
   #main-app .saved-twiddles a {
     color: var(--color-orange);
+  }
+  #main-app .navbar-default a,
+  #main-app .navbar-default mark {
+    color: var(--color-base3);
+  }
+  #main-app .dropdown-menu a,
+  #main-app .dropdown-menu mark {
+    color: var(--color-base03);
   }
   #main-app .navbar-default,
   #main-app .navbar-default .toolbar {
